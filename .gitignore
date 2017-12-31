@@ -34,3 +34,4 @@ sysinfo.txt
 *.unitypackage
 Library
 Temp
+/Platformer/.vs/Platformer/v15/Server/sqlite3
