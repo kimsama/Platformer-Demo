@@ -375,11 +375,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 114347598383241266, guid: cb74bf8a82d1b4f4da83858b6fb5c8c1,
-        type: 2}
-      propertyPath: m_States.Array.size
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 4468674893389768, guid: cb74bf8a82d1b4f4da83858b6fb5c8c1, type: 2}
       propertyPath: m_LocalPosition.x
       value: -6.37
@@ -411,66 +406,6 @@ Prefab:
     - target: {fileID: 4468674893389768, guid: cb74bf8a82d1b4f4da83858b6fb5c8c1, type: 2}
       propertyPath: m_RootOrder
       value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 114347598383241266, guid: cb74bf8a82d1b4f4da83858b6fb5c8c1,
-        type: 2}
-      propertyPath: m_Clip
-      value: 
-      objectReference: {fileID: 7400000, guid: 0254f00eda411a54ebb8bb7608dae870, type: 2}
-    - target: {fileID: 114347598383241266, guid: cb74bf8a82d1b4f4da83858b6fb5c8c1,
-        type: 2}
-      propertyPath: m_States.Array.data[0].clip
-      value: 
-      objectReference: {fileID: 7400000, guid: 0254f00eda411a54ebb8bb7608dae870, type: 2}
-    - target: {fileID: 114347598383241266, guid: cb74bf8a82d1b4f4da83858b6fb5c8c1,
-        type: 2}
-      propertyPath: m_States.Array.data[1].clip
-      value: 
-      objectReference: {fileID: 7400000, guid: caac1344ab8077c43952d474b971545e, type: 2}
-    - target: {fileID: 114347598383241266, guid: cb74bf8a82d1b4f4da83858b6fb5c8c1,
-        type: 2}
-      propertyPath: m_States.Array.data[1].name
-      value: run
-      objectReference: {fileID: 0}
-    - target: {fileID: 114347598383241266, guid: cb74bf8a82d1b4f4da83858b6fb5c8c1,
-        type: 2}
-      propertyPath: m_States.Array.data[2].clip
-      value: 
-      objectReference: {fileID: 7400000, guid: b20422b16731ce148b230026fb52e084, type: 2}
-    - target: {fileID: 114347598383241266, guid: cb74bf8a82d1b4f4da83858b6fb5c8c1,
-        type: 2}
-      propertyPath: m_States.Array.data[2].name
-      value: jump
-      objectReference: {fileID: 0}
-    - target: {fileID: 114347598383241266, guid: cb74bf8a82d1b4f4da83858b6fb5c8c1,
-        type: 2}
-      propertyPath: m_States.Array.data[3].name
-      value: jump (1)
-      objectReference: {fileID: 0}
-    - target: {fileID: 114347598383241266, guid: cb74bf8a82d1b4f4da83858b6fb5c8c1,
-        type: 2}
-      propertyPath: m_States.Array.data[3].clip
-      value: 
-      objectReference: {fileID: 7400000, guid: b20422b16731ce148b230026fb52e084, type: 2}
-    - target: {fileID: 95042962013734584, guid: cb74bf8a82d1b4f4da83858b6fb5c8c1,
-        type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 114508273739571004, guid: cb74bf8a82d1b4f4da83858b6fb5c8c1,
-        type: 2}
-      propertyPath: m_JumpForce
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 114508273739571004, guid: cb74bf8a82d1b4f4da83858b6fb5c8c1,
-        type: 2}
-      propertyPath: m_MaxSpeed
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 114508273739571004, guid: cb74bf8a82d1b4f4da83858b6fb5c8c1,
-        type: 2}
-      propertyPath: m_WhatIsGround.m_Bits
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cb74bf8a82d1b4f4da83858b6fb5c8c1, type: 2}

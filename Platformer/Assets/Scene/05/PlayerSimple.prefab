@@ -173,9 +173,9 @@ Animator:
   m_GameObject: {fileID: 1136716385721648}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 5623413047e624f419017dd6d2f5ce26, type: 2}
+  m_Controller: {fileID: 0}
   m_CullingMode: 1
-  m_UpdateMode: 0
+  m_UpdateMode: 1
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -192,23 +192,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1f5f982e1d49eb7418c44b102a49ca5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_PlayAutomatically: 0
-  m_AnimatePhysics: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 1
   m_CullingMode: 1
   m_WrapMode: 0
-  m_Clip: {fileID: 0}
+  m_Clip: {fileID: 7400000, guid: 0254f00eda411a54ebb8bb7608dae870, type: 2}
   m_States:
-  - clip: {fileID: 0}
+  - clip: {fileID: 7400000, guid: 0254f00eda411a54ebb8bb7608dae870, type: 2}
     name: Default
     defaultState: 1
-  - clip: {fileID: 7400000, guid: 0254f00eda411a54ebb8bb7608dae870, type: 2}
-    name: idle
-    defaultState: 0
   - clip: {fileID: 7400000, guid: caac1344ab8077c43952d474b971545e, type: 2}
-    name: skip
+    name: Run
     defaultState: 0
   - clip: {fileID: 7400000, guid: b20422b16731ce148b230026fb52e084, type: 2}
-    name: jump
+    name: Jump
     defaultState: 0
 --- !u!114 &114508273739571004
 MonoBehaviour:
@@ -221,13 +218,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffb27c0666cad80449984e76e5c71172, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_MaxSpeed: 10
-  m_JumpForce: 400
+  m_MaxSpeed: 1.5
+  m_JumpForce: 150
   m_CrouchSpeed: 0.36
-  m_AirControl: 0
+  m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1
 --- !u!212 &212635162663739142
 SpriteRenderer:
   m_ObjectHideFlags: 1
