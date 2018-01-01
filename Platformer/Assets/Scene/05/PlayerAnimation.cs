@@ -25,7 +25,8 @@ public class PlayerAnimation : MonoBehaviour
     private readonly string Idle = "Default";
     private readonly string Run = "Run";
     private readonly string Jump = "Jump";
-    
+    private bool m_Jump = false;
+
     private void Awake()
     {
         // Setting up references.
@@ -39,7 +40,7 @@ public class PlayerAnimation : MonoBehaviour
 
     private void Start()
     {
-        simpleAnim.CrossFade(Idle, 0.9f);
+        simpleAnim.Play(Idle);
     }
 
     private void FixedUpdate()
@@ -52,20 +53,19 @@ public class PlayerAnimation : MonoBehaviour
         for (int i = 0; i < colliders.Length; i++)
         {
             if (colliders[i].gameObject != gameObject)
+            {
                 m_Grounded = true;
+                simpleAnim.CrossFade(Idle, 0.1f);
+                //simpleAnim.Play(Idle);
+            }
         }
 
         // Set the vertical animation
         bool crouch = Input.GetKey(KeyCode.LeftControl);
         float h = CrossPlatformInputManager.GetAxis("Horizontal");
-        bool jump = CrossPlatformInputManager.GetButtonDown("Jump");
-        Move(h, crouch, jump);
-        jump = false;
-
-        if (m_Grounded && h == 0f)
-        {
-            simpleAnim.CrossFade(Idle, 0.05f);
-        }
+        m_Jump = CrossPlatformInputManager.GetButtonDown("Jump");
+        Move(h, crouch, m_Jump);
+        m_Jump = false;
     }
 
     public void Move(float move, bool crouch, bool jump)
@@ -86,6 +86,11 @@ public class PlayerAnimation : MonoBehaviour
             // Reduce the speed if crouching by the crouchSpeed multiplier
             move = (crouch ? move * m_CrouchSpeed : move);
 
+            if (Mathf.Abs(move) > 0.01f)
+                simpleAnim.CrossFade(Run, 0.05f);
+            else
+                simpleAnim.Play(Idle);
+
             // Move the character
             m_Rigidbody2D.velocity = new Vector2(move * m_MaxSpeed, m_Rigidbody2D.velocity.y);
 
@@ -94,14 +99,13 @@ public class PlayerAnimation : MonoBehaviour
             {
                 // ... flip the player.
                 Flip();
-                simpleAnim.CrossFade(Run, 0.05f);
+                
             }
             // Otherwise if the input is moving the player left and the player is facing right...
             else if (move < 0 && m_FacingRight)
             {
                 // ... flip the player.
                 Flip();
-                simpleAnim.CrossFade(Run, 0.05f);
             }
         }
 
