@@ -1,0 +1,231 @@
+fileFormatVersion: 2
+guid: 759af5c077af340ddb1f9d56a2eb5ef7
+timeCreated: 1432377841
+licenseType: Store
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: $Healer_10_0
+    21300002: $Healer_10_1
+    21300004: $Healer_10_2
+    21300006: $Healer_10_3
+    21300008: $Healer_10_4
+    21300010: $Healer_10_5
+    21300012: $Healer_10_6
+    21300014: $Healer_10_7
+    21300016: $Healer_10_8
+    21300018: $Healer_10_9
+    21300020: $Healer_10_10
+    21300022: $Healer_10_11
+    21300024: $Healer_10_12
+    21300026: $Healer_10_13
+    21300028: $Healer_10_14
+    21300030: $Healer_10_15
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: $Healer_10_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: $Healer_10_1
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 288
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: $Healer_10_2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: $Healer_10_3
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 288
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: $Healer_10_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: $Healer_10_5
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: $Healer_10_6
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: $Healer_10_7
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 192
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: $Healer_10_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: $Healer_10_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 96
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: $Healer_10_10
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: $Healer_10_11
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 96
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: $Healer_10_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: $Healer_10_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: $Healer_10_14
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: $Healer_10_15
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 144
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
