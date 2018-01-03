@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Player Atlas
+  m_EditorData:
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 0
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingParameters:
+      serializedVersion: 2
+      padding: 2
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 0
+      enableTightPacking: 0
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: 726418f0059e065469581c95170a41d8, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: f5367bccdcc24e44cbd4b1a9a537d051, type: 3}
+  - {fileID: 21300000, guid: d5766aa61d018ca4e945a053ba436e7d, type: 3}
+  - {fileID: 21300000, guid: e5bb1c77079d626418a61e705b76d918, type: 3}
+  - {fileID: 21300000, guid: f10caf912085ab640aff13472c7e982a, type: 3}
+  - {fileID: 21300000, guid: cf90bb3877d05bd488e526b85fccf94e, type: 3}
+  - {fileID: 21300000, guid: c6f62f6932946a24c95dde3113713e47, type: 3}
+  - {fileID: 21300000, guid: 18b00b03ca1c9c5418d07155d5b33a92, type: 3}
+  - {fileID: 21300000, guid: 31892863eee78e54780f7178c76380b7, type: 3}
+  - {fileID: 21300000, guid: c8d1bd30aba062b45832da641382f2b1, type: 3}
+  - {fileID: 21300000, guid: 604d34192d17b054293e6e1fcf54f34e, type: 3}
+  - {fileID: 21300000, guid: 8d5a1f6f38d14f84694907b5d2a966ed, type: 3}
+  - {fileID: 21300000, guid: 79024facd55529f44a20031c04313262, type: 3}
+  - {fileID: 21300000, guid: bfae4600db5b7914f9f932ba7dbfc9b5, type: 3}
+  - {fileID: 21300000, guid: 00c8dfcf7f3a8744fbe128efebccf3d5, type: 3}
+  - {fileID: 21300000, guid: 46f49e35d0430dc4bbb1f1d07566bf28, type: 3}
+  - {fileID: 21300000, guid: 3359ed4665824094bb8cd4e67c9b3d2c, type: 3}
+  - {fileID: 21300000, guid: 846cfb07752365d45be4731536f73d0e, type: 3}
+  - {fileID: 21300000, guid: 419275f6864b0064cbc26a52cefe8ddb, type: 3}
+  - {fileID: 21300000, guid: 9f228fa59bef5b743baf0a0bbdff6d7a, type: 3}
+  - {fileID: 21300000, guid: e104aa9543e91c1469960f1ac75da5d4, type: 3}
+  - {fileID: 21300000, guid: 78736a7a333b7a14fb30d7245619a09f, type: 3}
+  - {fileID: 21300000, guid: 6b108f7556a582e4ca6a326e93061990, type: 3}
+  - {fileID: 21300000, guid: b58e373c0cd70ad4489a2f8723b50008, type: 3}
+  - {fileID: 21300000, guid: 1b33b014b31ac8d408a0a1ffbf04361c, type: 3}
+  - {fileID: 21300000, guid: 84e009701a1cfd9498d2168d2475dad2, type: 3}
+  - {fileID: 21300000, guid: d0222aada417d0e499886858f674ec82, type: 3}
+  - {fileID: 21300000, guid: c1c3becc0c558084e8d2a3cdcf40cf9f, type: 3}
+  - {fileID: 21300000, guid: eda2b584c5bb3c44aa9f562b4527b030, type: 3}
+  - {fileID: 21300000, guid: 5f62cd4945bcf3442a0b1ca25c9a148a, type: 3}
+  - {fileID: 21300000, guid: b7ddb60776077164593d7608ef3978d9, type: 3}
+  - {fileID: 21300000, guid: 1b2a8a1cc93e71c4691aecf41b340a7e, type: 3}
+  - {fileID: 21300000, guid: a37f1e0ff8270454683694b37bddd30e, type: 3}
+  - {fileID: 21300000, guid: 87b6b3fcb90c5774c91b0cfcee91707b, type: 3}
+  - {fileID: 21300000, guid: 465630828ccdb6645acd77a6a15b9abb, type: 3}
+  - {fileID: 21300000, guid: 361036a86da69804a9ce00e9e5244fdb, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - player-hurt-1
+  - player-fall-1
+  - player-fall-3
+  - player-hurt-2
+  - player-fall-2
+  - player-fall-4
+  - player-jump-2
+  - player-jump-3
+  - player-jump-1
+  - player-jump-4
+  - player-climb-4
+  - player-climb-3
+  - player-climb-2
+  - player-climb-1
+  - player-idle-8
+  - player-idle-9
+  - player-idle-1
+  - player-idle-2
+  - player-idle-3
+  - player-idle-4
+  - player-idle-5
+  - player-idle-6
+  - player-idle-7
+  - player-skip-3
+  - player-skip-2
+  - player-skip-1
+  - player-duck-4
+  - player-skip-7
+  - player-skip-6
+  - player-duck-1
+  - player-skip-5
+  - player-skip-4
+  - player-duck-3
+  - player-duck-2
+  - player-skip-8
+  m_Tag: Player Atlas
+  m_IsVariant: 0
