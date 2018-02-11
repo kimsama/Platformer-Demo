@@ -1,23 +1,26 @@
 # Platformer-Demo
-사이버 아카데미 2017 예제
 
+[한국 컨텐츠 아카데미](https://edu.kocca.kr/edu/main/main.do) 온라인 교육 *'Unity3D 게임 만들기'* 예제 프로젝트.
 
-## Folder
-
-* Platformer - Unity 프로젝트
-* Sunny-land-files - Art resources from https://opengameart.org/content/sunnyland-forest
-
+<p align="center">
+  <img src="./img/capture01.png" width="70%" height=auto>
+</p>
 
 ## Chapter
 
-### Unity3D 인터페이스
+1. Unity3D 에디터 인터페이스
+* 2D 타일맵 에디터
+* 물리 시스템
+* 카메라와 입력처리
+* 재질(Material)
+* 캐릭터 애니메이션
+* 스크립팅
 
-### 2D 타일 에디터
 
-### Macanim 애니메이션
+## Credit & License
 
-### 재질(Material)
+This is distributed under the terms and conditions of the MIT license.
 
-### 물리 시스템
-
-### 카메라 및 사용자 입력
+Except the followings:
+* [*Sunnyland*](https://opengameart.org/content/sunnyland-forest) - All artwork is created by Luis Zuno. This piece is under a [CC-BY-3.0](http://creativecommons.org/licenses/by/3.0/) License.
+* All any other packages from [AssetStore](https://assetstore.unity.com/) follows on their own license policy.
